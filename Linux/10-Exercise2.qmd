@@ -1,0 +1,19 @@
+# Exercise 2
+```{r, fig.align = 'center',out.width= '15%', echo=FALSE }
+knitr::include_graphics(path = "figures/exercise_2.png", auto_pdf = TRUE)
+``` 
+The directory __"~/Linux/6_final_exercise/"__ has all the files you need. Below is a set of tasks and questions that will require all the skills you have gained from this practical.
+
+1. See what files are in the directory.  
+2. Rename the file "3-P£_CACTTCGA_L001_R1_001.fastq" as "3-P3_CACTTCGA_L001_R1_001.fastq".  
+3. Make a backup of the files in a directory called __backup__.  
+4. How many reads are in the samples?  
+5. Remove the fastq files with no data.
+6. Update the backup files with the previous change.  
+7. Check if the 1st read names match in the paired files.  
+8. Check if the last read names match in the paired files.  
+9. In file __"1-P1_ATGCCTGG_L001_R1_001.fastq"__ look for sequence headers with the term ‘psychrobacter'.  
+10. In the sample __1-P1__ remove any fastq entries where the term ‘psychrobacter’ appears in the fastq header. Do this for the R1 and R2 files.  
+11. Print to screen the fastq header, sequence and quality data for the 25th sequence in sample __2-P2__ for both the R1 and R2 file. Do this with one command for R1 and a separate command for R2.
+
+You can check my solutions in the [Answers section](#exercise2_answers). These are not the definitive solution but only examples of solutions. If your method works and you understand why then you have done it correctly.

@@ -1,0 +1,51 @@
+# Introduction {#intro}
+
+
+Bioinformatics is an increasingly important skill for biological scientists. Many bioinformatic tools can only be run on Linux based operating systems. This course aims to introduce you to Linux and is aimed at beginners and novices to the command line.
+
+This part of the website contains theory, practice code, and exercises. Multiple choice questions will help reinforce what you have learnt throughout the book.
+
+At the end of the course learners will be able to:
+
+-   Explain how the user, shell, and kernel interact with each other in the Linux OS.
+-   Navigate & manipulate directories in the Linux environment.
+-   List and view the contents of directories.
+-   Carry out a variety of commands with files including printing them to terminal.
+-   Utilise the text editor nano to create, edit, and save files.
+-   Understand the structure of fastq files.
+
+The Advanced topics section contains some additional advanced Linux commands and introductions to other programming languages used by bioinformaticians.
+
+Commands are in the following font, colour, and box. They should be run in the command line.
+
+```{bash eval=FALSE}
+echo "This is a command example" 
+```
+
+Additionally, please use the [cheatsheet](a1-cheat_sheet.qmd) as a reminder of all the commands you will be learning.
+
+## Table of contents {.unnumbered}
+
++:---------------------------------------------------------------------------------:+:---------------------------------------------------------------------------------:+
+| [**What is Linux?**](01-Linux_Introduction.qmd)                                   | [Starting](02-Starting.qmd)                                                       |
+|                                                                                   |                                                                                   |
+| [![](figures/linux_beginner.png){width="142"}](01-Linux_Introduction.qmd)         | [![](figures/start.png){width="189"}](02-Starting.qmd)                            |
++-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
+| [**Directories and files**](03-Directories_and_Files.qmd)                         | [**Tips and tricks**](04-Tips_and_tricks.qmd)                                     |
+|                                                                                   |                                                                                   |
+| [![](figures/directory.png){width="125"}](03-Directories_and_Files.qmd)           | [![](figures/skateboard_trick.png){width="302"}](04-Tips_and_tricks.qmd)          |
++-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
+| [**Manipulating Directories**](05-Manipulating_directories.qmd)                   | [**File reading and processing**](07-File_reading_and_processing.qmd)             |
+|                                                                                   |                                                                                   |
+| [![](figures/transform.png){width="150"}](05-Manipulating_directories.qmd)        | [![](figures/files.png){width="205"}](07-File_reading_and_processing.qmd)         |
++-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
+| [**Advanced Linux**](11-Advanced_linux_practice.qmd)                              | [**Other Bioinformatics programming languages**](13-Bioinformatica_languages.qmd) |
+|                                                                                   |                                                                                   |
+| [![](figures/linux_intermdiary.png){width="142"}](11-Advanced_linux_practice.qmd) | [![](figures/languages.png){width="159"}](13-Bioinformatica_languages.qmd)        |
++-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
+| [**Appendix**](a1-cheat_sheet.qmd)                                                |                                                                                   |
+|                                                                                   |                                                                                   |
+| [![](figures/cheatsheet.png){width="150"}](a1-cheat_sheet.qmd)                    |                                                                                   |
++-----------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons Licence" style="border-width:0"/></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.

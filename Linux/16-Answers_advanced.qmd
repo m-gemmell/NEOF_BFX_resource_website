@@ -1,0 +1,70 @@
+# Advanced exercise {#exerciseadv_answers .unnumbered}
+
+```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
+knitr::include_graphics(path = "figures/adv_exercise.png", auto_pdf = TRUE)
+```
+
+1.  Copy the directory \~/Linux/advanced_practice to \~/Linux/advanced_practice_exercise
+
+```{bash eval=FALSE}
+cp -r ~/Linux/advanced_practice ~/Linux/advanced_practice_exercise
+```
+
+2.  Move into \~/Linux/advanced_practice_exercise
+
+```{bash eval=FALSE}
+cd ~/Linux/advanced_practice_exercise
+```
+
+3.  Make a directory called fastq and one called txt
+
+```{bash eval=FALSE}
+mkdir fastq txt
+```
+
+4.  With one command move all the fastq files into the directory fastq
+
+```{bash eval=FALSE}
+mv *.fastq fastq/
+```
+
+5.  With one command move all the txt files, excluding metadata.txt and samples.txt, into the directory txt.
+
+```{bash eval=FALSE}
+mv sample_*txt txt/
+```
+
+6.  Create a file in the fastq directory called patient_1_corrected.fastq and put all the corrected fastq data for patient_1 into the file.
+
+```{bash eval=FALSE}
+cat fastq/sample_[1-2]_*corrected.fastq > \
+fastq/patient_1_corrected.fastq
+```
+
+7.  Append the metadata line for sample_1_AAAA from metadata.txt to the bottom of the file sample_1_AAA.txt in the txt directory.
+
+```{bash eval=FALSE}
+cat metadata.txt | grep "sample_1_AAAA" >> txt/sample_1_AAAA.txt
+```
+
+8.  For all the corrected fastq files find the sequences that start with a stop codon in the forward orientation (i.e. TAG, TAA or TGA). Print out to screen the sample name and sequence info separated by a ":" only (i.e. sample_10_AAGT:TAAGAGAACAATGAACAGATATTAATAATTTTGCCGCTTTTCTGCGGGAT)
+
+```{bash eval=FALSE}
+grep "^TA[AG]\|^TGA" fastq/*corrected.fastq | \
+sed "s/.*sample/sample/" | sed "s/_corrected.fastq//"
+```
+
+9.  Count the number of Gs and Cs within the sequences of file sample_16_AACC.fastq
+
+```{bash eval=FALSE}
+cat fastq/sample_16_AACC.fastq | grep -B 1 "^+$" | \
+grep -v "+\|--" | sed "s/A\|T//g" | wc -c
+```
+
+10. Get the fastq headers of sequences with homopolymers made of As with a length of 5 or greater for the uncorrected fastq files for samples 8-13 with one command. Then in the same command make the final output of each line in the format of "Sample_13: Sequence 12"
+
+```{bash eval=FALSE}
+cat fastq/*[3-5]*[AGCT].fastq | grep -B 2 "^+$" | \
+grep -B 1 "AAAAA" | grep "^@" | sed "s/^@s/S/" | \
+sed "s/_[AGCT]*_/: Sequence /" | sed "s/ 1:$//"
+```

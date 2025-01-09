@@ -1,0 +1,14 @@
+{
+  "hash": "70b31a2777fc70e7f486a5384808b0e4",
+  "result": {
+    "markdown": "# vim {#vim}\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](figures/Vimlogo.png){fig-align='center' width=20%}\n:::\n:::\n\n\nTo enter the `vim` text editor you can use the command `vim`. The command is: `vim file.txt`.\n\n`vim` can be run with a previous file name which you can then edit or a new file name in which case you will create a new file.\n\nOnce you are in the `vim` editor there are two main modes:\n\n1.  **Command mode**: This is the starting mode of `vim`. It can be used to enter commands but not for typing.\n2.  **Insert mode**: This mode can be used to insert characters into the text. Pasting only works properly in insert mode. You will know you are in insert mode as at the bottom of the screen will be **\"-- INSERT --\"**.\n    1.  To **enter** insert mode press **i**\n    2.  To **escape** Insert mode press **esc**\n\nBelow are a subset of commands you can use in the command mode of vim.\n\n-   **:q** - Quit vim. Will fail if there are any unsaved changes\n-   **:w** - Save the file\n-   **:wq** - Save and quit\n-   **:x** - Save and quit\n-   **:q!** - Quit and throw away unsaved changes\n-   **:saveas file** - Save file as. File name can be changed\n-   **:w file** - Save file as. File name can be changed\n-   **arrow keys** - Navigate the text. (works in insert mode too)\n-   **\\^** - Jump to the start of a line\n-   **\\$** - Jump to the end of a line\n-   **/pattern** - Search for pattern\n-   **n** - Repeat search in same direction\n-   **N** - Repeat search in reverse direction\n-   **dd** - Delete the current line\n-   **i** - Enter insert mode\n-   **1G** - Go to the first line in the file. Number can be changed\n-   **G** - Go to the last line of the file\n\n[**Vim cheatsheet**](https://vim.rtorr.com/)\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

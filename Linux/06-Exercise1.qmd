@@ -1,0 +1,20 @@
+# Exercise 1
+
+```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
+knitr::include_graphics(path = "figures/exercise.png", auto_pdf = TRUE)
+```
+
+Perform the following tasks with the skills and knowledge you have gained.
+
+Change the name of the subdirectory **"four_exercises"** within your **"Linux"** directory to **"4_exercises"**
+
+1.  Make a backup of the **"4_exercises"** directory
+2.  List the contents of the **"4_exercises"** directory
+3.  Within the directory **"4_exercises"**
+    1.  Print the working directory.
+    2.  Print out to screen the phrase '**the echo command allows me to print phrases to screen**'.
+    3.  Copy the file **"copy_this_file.txt"** to the directory **"to_me"**
+    4.  Rename the directory **"to_me"** to **"you"**
+    5.  Delete the initial **"copy_this_file.txt"** file
+
+You can check my solutions in the [Answers section](#exercise1_answers). These are not the definitive solution but only examples of solutions. If your method works and you understand why then you have done it correctly.

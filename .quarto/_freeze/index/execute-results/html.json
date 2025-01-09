@@ -1,0 +1,14 @@
+{
+  "hash": "ae94f8ce4d68f8d3f4ff99acc8718776",
+  "result": {
+    "markdown": "---\ntitle: \"Overview\"\neditor: \n  markdown: \n    wrap: sentence\n---\n\n\n<center>\n![](images/neof_rounded_corners.png){style=\"width:300px\"}\n</center>\n\n\n\n\n\n\n\n## License {.unnumbered}\n<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"><img src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" alt=\"Creative Commons Licence\" style=\"border-width:0\"/></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

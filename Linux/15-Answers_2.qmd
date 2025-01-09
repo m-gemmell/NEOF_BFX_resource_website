@@ -1,0 +1,119 @@
+# Exercise 2 {#exercise2_answers .unnumbered}
+
+```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
+knitr::include_graphics(path = "figures/exercise_2.png", auto_pdf = TRUE)
+```
+
+Ensure you are in the correct directory before carrying out the below commands
+
+```{bash eval=FALSE}
+cd ~/Linux/6_final_exercise
+```
+
+1.  See what files are in the directory
+
+```{bash eval=FALSE}
+ls
+```
+
+2.  Rename the file 3-P£\_CACTTCGA_L001_R1_001.fastq to 3-P3_CACTTCGA_L001_R1_001.fastq
+
+```{bash eval=FALSE}
+mv 3-P£_CACTTCGA_L001_R1_001.fastq \
+3-P3_CACTTCGA_L001_R1_001.fastq
+```
+
+3.  Make a backup of the files in a directory called backup
+
+```{bash eval=FALSE}
+mkdir backup
+cp 1-P1_ATGCCTGG_L001_R1_001.fastq backup/
+cp 1-P1_ATGCCTGG_L001_R2_001.fastq backup/
+cp 2-P2_AAGGACAC_L001_R1_001.fastq backup/
+cp 2-P2_AAGGACAC_L001_R2_001.fastq backup/
+cp 3-P3_CACTTCGA_L001_R1_001.fastq backup/
+cp 3-P3_CACTTCGA_L001_R2_001.fastq backup/
+cp 4-E1_ATTGGCTC_L001_R1_001.fastq backup/
+cp 4-E1_ATTGGCTC_L001_R2_001.fastq backup/
+cp metadata.txt backup/
+```
+
+This can be done a lot quicker with the use of wildcard characters (Covered in Advanced Linux section)
+
+```{bash eval=FALSE}
+mkdir backup
+cp *fastq backup
+cp *txt backup
+```
+
+4.  How many reads are in the samples? The below command will give the number of lines in the files, this number can then be divided by 4 (mentally or using a calculator). These values will be the same for the R2 files as they are for the matching R1 file.
+
+```{bash eval=FALSE}
+wc -l 1-P1_ATGCCTGG_L001_R1_001.fastq \
+2-P2_AAGGACAC_L001_R1_001.fastq \
+3-P3_CACTTCGA_L001_R1_001.fastq
+```
+
+An advanced method using regular expressions, wildcard characters and grep
+
+```{bash eval=FALSE}
+grep -c "^@[0-9]*_" *R1*.fastq
+```
+
+5.  Remove the fastq files with no data Check which files have no data
+
+```{bash eval=FALSE}
+wc \
+1-P1_ATGCCTGG_L001_R1_001.fastq 1-P1_ATGCCTGG_L001_R2_001.fastq \
+2-P2_AAGGACAC_L001_R1_001.fastq 2-P2_AAGGACAC_L001_R2_001.fastq \
+3-P3_CACTTCGA_L001_R1_001.fastq 3-P3_CACTTCGA_L001_R2_001.fastq \
+4-E1_ATTGGCTC_L001_R1_001.fastq 4-E1_ATTGGCTC_L001_R2_001.fastq 
+```
+
+Remove empty files
+
+```{bash eval=FALSE}
+rm \
+4-E1_ATTGGCTC_L001_R1_001.fastq 4-E1_ATTGGCTC_L001_R2_001.fastq
+```
+
+6.  Update the backup files with the previous change
+
+```{bash eval=FALSE}
+rm backup/4-E1_ATTGGCTC_L001_R1_001.fastq \
+backup/4-E1_ATTGGCTC_L001_R2_001.fastq 
+```
+
+7.  Check if the 1st read names match in the paired files
+
+```{bash eval=FALSE}
+head -n 1 \
+1-P1_ATGCCTGG_L001_R1_001.fastq 1-P1_ATGCCTGG_L001_R2_001.fastq \
+2-P2_AAGGACAC_L001_R1_001.fastq 2-P2_AAGGACAC_L001_R2_001.fastq \
+3-P3_CACTTCGA_L001_R1_001.fastq 3-P3_CACTTCGA_L001_R2_001.fastq 
+```
+
+8.  Check if the last read names match in the paired files
+
+```{bash eval=FALSE}
+tail -n 4 \
+1-P1_ATGCCTGG_L001_R1_001.fastq 1-P1_ATGCCTGG_L001_R2_001.fastq \
+2-P2_AAGGACAC_L001_R1_001.fastq 2-P2_AAGGACAC_L001_R2_001.fastq \
+3-P3_CACTTCGA_L001_R1_001.fastq 3-P3_CACTTCGA_L001_R2_001.fastq 
+```
+
+9.  In file 1-P1_ATGCCTGG_L001_R1_001.fastq look for sequence headers with the term 'psychrobacter'
+
+```{bash eval=FALSE}
+grep “psychrobacter” 1-P1_ATGCCTGG_L001_R1_001.fastq
+```
+
+10. In the sample 1-P1 remove any fastq entries where the term 'psychrobacter' appears in the fastq header. Do this for the R1 and R2 file.
+    -   Using **nano** use "Ctrl+W" to search for psychrobacter. Then use "Ctrl+K" to cut the lines followed by "Ctrl+W" and "Ctrl+X" to save and exit.
+    -   Using **vim** with "/" to search for psychrobacter, "dd" to delete lines and ":wq" to save the file and exit it.
+11. Print to screen the fastq header, sequence and quality data for the 25th sequence in sample 2-P2 for both the R1 and R2 file. Do this with one command. \@24_ecoli is grepped as the first sequence is \@0_ecoli
+
+```{bash eval=FALSE}
+grep -A 3 "@24_ecoli" 2-P2_AAGGACAC_L001_R1_001.fastq
+grep -A 3 "@24_ecoli" 2-P2_AAGGACAC_L001_R2_001.fastq
+```

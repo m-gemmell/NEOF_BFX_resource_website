@@ -1,0 +1,26 @@
+# Practical cheat sheet {#cheatsheet}
+
+```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
+knitr::include_graphics(path = "figures/cheatsheet.png", auto_pdf = TRUE)
+```
+
+| **Command** | **Description**                                  | **Usage example**                                          |
+|------------------|-------------------------|------------------------------|
+| echo        | Print out a string to screen                     | Echo 'Hello World'                                         |
+| man         | Look at the manual page of a command             | man man                                                    |
+| clear       | Clear the screen                                 | clear                                                      |
+| \<tab\>     | Complete a path or command                       | \<tab\>                                                    |
+| cd          | Change directory                                 | cd /directory/path/                                        |
+| pwd         | Print Working Directory                          | pwd                                                        |
+| ls          | List the contents of a directory                 | ls /directory/path/                                        |
+| mkdir       | Make a directory                                 | mkdir /directory/path/new_directory/                       |
+| cp          | Copy content to another path                     | cp /directory/path/file.txt /directory/path/new_directory/ |
+| mv          | Move content to a new path                       | mv /directory/path/file.txt /directory/path/new_directory/ |
+| rm          | Delete content                                   | rm /directory/path/file.txt                                |
+| cat         | Print contents of a file to screen               | cat /directory/path/file.txt                               |
+| head        | Print out the first n lines of a file to screen  | head -n 10 /directory/path/file.txt                        |
+| tail        | Print the last n lines of a file to screen       | tail -n 12 /directory/path/file.txt                        |
+| less        | Read a file one page at a time                   | less /directory/path/file.txt                              |
+| wc          | Print out line, word and byte count              | wc /directory/path/file.txt                                |
+| grep        | Search for lines that contain a specific pattern | grep "pattern" /directory/path/file.txt                    |
+| vim         | Text editor                                      | vim /directory/path/file.txt                               |

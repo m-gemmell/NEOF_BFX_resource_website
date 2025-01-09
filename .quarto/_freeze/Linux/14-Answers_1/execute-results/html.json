@@ -1,0 +1,14 @@
+{
+  "hash": "f058cbca3204ebeef242cf62c82363f5",
+  "result": {
+    "markdown": "# Exercise 1 {#exercise1_answers .unnumbered}\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](figures/exercise.png){fig-align='center' width=20%}\n:::\n:::\n\n\nEnsure you are in the correct directory before carrying out the below commands\n\n\n::: {.cell}\n\n```{.bash .cell-code}\ncd ~/Linux/\n```\n:::\n\n\n1.  Change the name of the subdirectory 4_exercises_aaaa within your Linux to 4_exercises\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nmv 4_exercises_aaaa 4_exercises\n```\n:::\n\n\n2.  Make a backup of the 4_exercises directory\n\n\n::: {.cell}\n\n```{.bash .cell-code}\ncp -r 4_exercises 4_exercises_backup \n```\n:::\n\n\n3.  List the contents of the 4_exercises directory\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nls 4_exercises\n```\n:::\n\n\n4.  Within the directory 4_exercises\n\n\n::: {.cell}\n\n```{.bash .cell-code}\ncd 4_exercises\n```\n:::\n\n\nPrint the working directory\n\n\n::: {.cell}\n\n```{.bash .cell-code}\npwd\n```\n:::\n\n\nb.  Print out to screen the phrase 'the echo command allows me to print phrases to screen'\n\n\n::: {.cell}\n\n```{.bash .cell-code}\necho “the echo command allows me to print phrases to screen”\n```\n:::\n\n\nc.  Copy the file copy_this_file.txt to the directory to_me\n\n\n::: {.cell}\n\n```{.bash .cell-code}\ncp copy_this_file.txt to_me\n```\n:::\n\n\nd.  Rename the directory to_me to you\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nmv to_me you\n```\n:::\n\n\nf.  Delete the initial copy_this_file.txt file\n\n\n::: {.cell}\n\n```{.bash .cell-code}\nrm copy_this_file.txt\n```\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

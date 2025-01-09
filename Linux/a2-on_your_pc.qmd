@@ -1,0 +1,33 @@
+# On your computer
+
+## Windows terminals {#windows_terminals}
+
+```{r, fig.align = 'center',out.width= '15%', echo=FALSE }
+knitr::include_graphics(path = "figures/windows.png", auto_pdf = TRUE)
+```
+
+If you are on a windows you may need to download a terminal program to `ssh` to a linux cluster. Thankfully Macs come with an in built terminal. Below are a few suggestions of windows terminals:
+
+-   [MobaXterm](https://mobaxterm.mobatek.net/)
+-   [Putty](https://www.putty.org/)
+-   [Ubuntu on Windows](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab)
+
+## `ssh`
+
+```{r, fig.align = 'center',out.width= '15%', echo=FALSE }
+knitr::include_graphics(path = "figures/turtle_shell.png", auto_pdf = TRUE)
+```
+
+The `ssh` (Secure Shell Protocol) command is used to login into cluster and other machines. For more information on this please see the following online tutorial: https://opensource.com/article/20/9/ssh
+
+## File transferring
+
+```{r, fig.align = 'center',out.width= '15%', echo=FALSE }
+knitr::include_graphics(path = "figures/file_transfer.png", auto_pdf = TRUE)
+```
+
+When working with a remote cluster you will most likely want to transfer files from your computer to the cluster and vice versa.
+
+For transferring on windows machine I would suggest [WinSCP](https://winscp.net/eng/index.php).
+
+For transferring on Macs I would suggest [FileZIlla](https://filezilla-project.org/)

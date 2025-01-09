@@ -1,0 +1,14 @@
+{
+  "hash": "bbd489382c72bb1d46e5c96ef5fac835",
+  "result": {
+    "markdown": "# On your computer\n\n## Windows terminals {#windows_terminals}\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](figures/windows.png){fig-align='center' width=15%}\n:::\n:::\n\n\nIf you are on a windows you may need to download a terminal program to `ssh` to a linux cluster. Thankfully Macs come with an in built terminal. Below are a few suggestions of windows terminals:\n\n-   [MobaXterm](https://mobaxterm.mobatek.net/)\n-   [Putty](https://www.putty.org/)\n-   [Ubuntu on Windows](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab)\n\n## `ssh`\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](figures/turtle_shell.png){fig-align='center' width=15%}\n:::\n:::\n\n\nThe `ssh` (Secure Shell Protocol) command is used to login into cluster and other machines. For more information on this please see the following online tutorial: https://opensource.com/article/20/9/ssh\n\n## File transferring\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](figures/file_transfer.png){fig-align='center' width=15%}\n:::\n:::\n\n\nWhen working with a remote cluster you will most likely want to transfer files from your computer to the cluster and vice versa.\n\nFor transferring on windows machine I would suggest [WinSCP](https://winscp.net/eng/index.php).\n\nFor transferring on Macs I would suggest [FileZIlla](https://filezilla-project.org/)",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

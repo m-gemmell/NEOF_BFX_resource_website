@@ -1,0 +1,65 @@
+# Exercise 1 {#exercise1_answers .unnumbered}
+
+```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
+knitr::include_graphics(path = "figures/exercise.png", auto_pdf = TRUE)
+```
+
+Ensure you are in the correct directory before carrying out the below commands
+
+```{bash eval=FALSE}
+cd ~/Linux/
+```
+
+1.  Change the name of the subdirectory 4_exercises_aaaa within your Linux to 4_exercises
+
+```{bash eval=FALSE}
+mv 4_exercises_aaaa 4_exercises
+```
+
+2.  Make a backup of the 4_exercises directory
+
+```{bash eval=FALSE}
+cp -r 4_exercises 4_exercises_backup 
+```
+
+3.  List the contents of the 4_exercises directory
+
+```{bash eval=FALSE}
+ls 4_exercises
+```
+
+4.  Within the directory 4_exercises
+
+```{bash eval=FALSE}
+cd 4_exercises
+```
+
+Print the working directory
+
+```{bash eval=FALSE}
+pwd
+```
+
+b.  Print out to screen the phrase 'the echo command allows me to print phrases to screen'
+
+```{bash eval=FALSE}
+echo “the echo command allows me to print phrases to screen”
+```
+
+c.  Copy the file copy_this_file.txt to the directory to_me
+
+```{bash eval=FALSE}
+cp copy_this_file.txt to_me
+```
+
+d.  Rename the directory to_me to you
+
+```{bash eval=FALSE}
+mv to_me you
+```
+
+f.  Delete the initial copy_this_file.txt file
+
+```{bash eval=FALSE}
+rm copy_this_file.txt
+```

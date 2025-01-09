@@ -1,0 +1,249 @@
+# Directories and Files {#dirsandfiles}
+
+```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
+knitr::include_graphics(path = "figures/directory.png", auto_pdf = TRUE)
+```
+
+[YouTube walk through video](https://www.youtube.com/embed/hJCuJXZQjac)
+
+
+## Acquiring Workshop data
+
+The first step to carry out is to copy the data for the workshop to your home directory.
+
+### Changing directories
+
+Before copying you will change directory to your home directory.
+
+-   `cd` is the command to Change Directory. It is followed by the directory you want to change to.
+-   **"\~"** represents your home directory.
+
+Change directory to your home directory by running the following command in your terminal:
+
+```{bash eval=FALSE}
+cd ~ 
+```
+
+In Linux the default of `cd` is to change directory to your home directory. Therefore the following command will do the same as the above.
+
+```{bash eval=FALSE}
+cd
+```
+
+To determine your current working directory you can either look at the part of the terminal which displays it or you can use the command `pwd` (print working directory). Enter the following command:
+
+```{bash eval=FALSE}
+pwd
+```
+
+In this case it will not show a **"\~"** but the full path of your home directory. E.g. **"/pub14/tea/nsc206/"**.
+
+-   The first **"/"** is the root of the system. Every directory, subdirectory, file and program of the machine is within the root.
+-   **"pub14/"**: A directory within the root.
+-   **"tea/"**: A subdirectory of **"pub14/"** and a sub-subdirectory of the root (**"/"**).
+-   **"nsc206"**: The home directory of user nsc206. It is a subdirectory of **"tea/"** which is a subdirectory of **"pub14/"** which is a subdirectory of the root (**"/"**).
+
+### Copying
+
+Now that we are in our home directory we can copy the data we need to it.
+
+To do this we can use the command `cp`. This command is followed by the directory/file we want to copy then by the directory we want to copy it to.
+
+To copy a directory we need to add the option `-r` which means recursively copy this directory and all its contents. Otherwise `cp` can only be used to copy files.
+
+Use the below command to copy the workshop data to your current directory. The **"."** refers to your current directory.
+
+```{bash eval=FALSE}
+cp -r /pub14/tea/nsc206/NEOF/Linux/ .
+```
+
+Now change directory into your newly copied directory.
+
+```{bash eval=FALSE}
+cd Linux
+```
+
+Print to screen the path of your current working directory.
+
+```{bash eval=FALSE}
+pwd
+```
+
+## Directory structure
+
+You can think of the directory structure in two different ways.
+
+### The Directory tree
+
+This starts as the root (**"/"**) which branches out into directories and files. Directories contain files and subdirectories which contain files and subdirectories etc.
+
+Below is an example of visualising the location of the **"Linux"** directory within the user ncs006's home directory as a tree. This only includes a subset of directories.
+
+```{r, fig.align = 'center',out.width= '100%', echo=FALSE }
+knitr::include_graphics(path = "figures/linux_tree_structure.png", auto_pdf = TRUE)
+```
+
+### Boxes
+
+Another analogy to the directory structure is boxes and items. In this case there is one large box that contains all the boxes and items, this is the root (**"/"**). In the root are items and boxes which hold items and boxes etc.
+
+Below is an example of visualising the location of the **"Linux"** directory within the user ncs006's home directory as boxes. This only includes a subset of directories.
+
+```{r, fig.align = 'center',out.width= '60%', echo=FALSE }
+knitr::include_graphics(path = "figures/linux_box_structure.png", auto_pdf = TRUE)
+```
+
+## Paths
+
+```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
+knitr::include_graphics(path = "figures/paths.png", auto_pdf = TRUE)
+```
+
+On the command line directories and files are referred to by paths e.g. **"/pub14/tea/nsc206/Linux/"** is a path.
+
+Paths are case sensitive. The path **"directory/file.txt"** is different than **"diRectory/File.txt"**.
+
+Spaces should always be avoided in path names. It is highly recommended to **"\_"** instead. This is because spaces are used to separate options and parameters in commands.
+
+There are multiple ways to refer to a path. The two main ways are through **absolute paths** and **relative paths**.
+
+### Absolute paths
+
+Absolute paths are paths that start from the root e.g.
+
+-   **"/pub14/tea/nsc206/Linux/"**
+-   **"\~/Linux/"** (In this case \~ is a shortcut which includes the root)
+-   **"/pub14/tea/nsc206/file.txt"**
+
+### Relative paths
+
+Relative paths are paths that are relative to another location besides the root e.g.
+
+-   **"."** (This means the current working directory).
+-   **".."** (This refers to one directory up e.g. if the current directory was **"/pub14/tea/nsc206/"**, the **".."** directory would be **"/pub14/tea/"**).
+-   **"1_directory/"**, would refer to the directory **"1_directory/"** in your current directory
+
+### Change directory examples
+
+Below is a subset of valid methods to change directory into your **"Linux/"** directory
+
+**Note**:change **nsc2xx** to your specific user name as shown on the command line prompt.
+
+Method 1
+
+```{bash eval=FALSE}
+cd /pub14/tea/nsc2xx/Linux/
+```
+
+Method 2
+
+```{bash eval=FALSE}
+cd ~
+cd Linux/
+```
+
+Method 3
+
+```{bash eval=FALSE}
+cd /pub14/tea/nsc2xx/Linux/1_directory/
+cd ..
+```
+
+Method 4
+
+```{bash eval=FALSE}
+cd /pub14/
+cd tea/
+cd nsc2xx/
+cd Linux/
+```
+
+## Listing Directory content
+
+```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
+knitr::include_graphics(path = "figures/List.png", auto_pdf = TRUE)
+```
+
+To list the contents (files and directories) within a directory you can use the `ls` command.
+
+The output of `ls` will include file names that are coloured black and directory names that are coloured blue in our VNC terminals.
+
+Before carrying out the below commands make sure you are in your **"Linux"** directory with the `pwd` command.
+
+List the contents in your current directory:
+
+```{bash eval=FALSE}
+ls
+```
+
+List the contents in your home directory:
+
+```{bash eval=FALSE}
+ls ..
+```
+
+List the contents in the root directory and put each separate file/directory on a separate line. In the below command the `-1` is a parameter that indicates there will be only 1 piece of content on each line. Note: `-2`, `-3` etc are not parameters that work with `ls`.
+
+```{bash eval=FALSE}
+ls -1 /
+```
+
+**Reminder**: you can use the `man` command to look at more options for commands.
+
+`ls` is my most typed command. I am consistently using it to see what directories and files are in my current directory and other directories. I suggest you do the same.
+
+## MCQs: Files & Directories
+
+```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
+knitr::include_graphics(path = "figures/question_bubble.png", auto_pdf = TRUE)
+```
+
+Please attempt to answer the below Multiple-Choice Questions to reinforce what you have learnt in this chapter.
+
+```{r, echo = FALSE}
+opts_p <- c("__`cp`__", "__`cd`__", answer="__`ls`__")
+```
+
+1.  What command lists the contents of directories? `r longmcq(opts_p)`
+
+```{r, echo = FALSE}
+opts_p <- c("__`cp`__", answer="__`cd`__", "__`ls`__")
+```
+
+2.  What command changes directory? `r longmcq(opts_p)`
+
+```{r, echo = FALSE}
+opts_p <- c(answer="__`cp`__", "__`cd`__", "__`ls`__")
+```
+
+3.  What command copies files and directories? `r longmcq(opts_p)`
+
+```{r, echo = FALSE}
+opts_p <- c("__`~`__", answer="__`/`__", "__`..`__")
+```
+
+4.  Choose the option that represents the root directory.`r longmcq(opts_p)`
+
+```{r, echo = FALSE}
+opts_p <- c(answer="__`~`__", "__`/`__", "__`..`__")
+```
+
+5.  Choose the option that represents your home directory. `r longmcq(opts_p)`
+
+```{r, echo = FALSE}
+opts_p <- c("__`~`__", "__`/`__", answer="__`..`__")
+```
+
+6.  Choose the option that represents one directory above. `r longmcq(opts_p)`
+
+```{r, echo = FALSE}
+opts_p <- c("__./Linux/__", answer="__/pub14/tea/nsc206/Linux/__")
+```
+
+7.  Which path is an absolute path? `r longmcq(opts_p)`
+
+```{r, echo = FALSE}
+opts_p <- c(answer="__./Linux__", "__/pub14/tea/nsc206/Linux/__")
+```
+
+8.  Which path is a relative path? `r longmcq(opts_p)`

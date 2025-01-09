@@ -1,0 +1,38 @@
+# vim {#vim}
+
+```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
+knitr::include_graphics(path = "figures/Vimlogo.png", auto_pdf = TRUE)
+```
+
+To enter the `vim` text editor you can use the command `vim`. The command is: `vim file.txt`.
+
+`vim` can be run with a previous file name which you can then edit or a new file name in which case you will create a new file.
+
+Once you are in the `vim` editor there are two main modes:
+
+1.  **Command mode**: This is the starting mode of `vim`. It can be used to enter commands but not for typing.
+2.  **Insert mode**: This mode can be used to insert characters into the text. Pasting only works properly in insert mode. You will know you are in insert mode as at the bottom of the screen will be **"-- INSERT --"**.
+    1.  To **enter** insert mode press **i**
+    2.  To **escape** Insert mode press **esc**
+
+Below are a subset of commands you can use in the command mode of vim.
+
+-   **:q** - Quit vim. Will fail if there are any unsaved changes
+-   **:w** - Save the file
+-   **:wq** - Save and quit
+-   **:x** - Save and quit
+-   **:q!** - Quit and throw away unsaved changes
+-   **:saveas file** - Save file as. File name can be changed
+-   **:w file** - Save file as. File name can be changed
+-   **arrow keys** - Navigate the text. (works in insert mode too)
+-   **\^** - Jump to the start of a line
+-   **\$** - Jump to the end of a line
+-   **/pattern** - Search for pattern
+-   **n** - Repeat search in same direction
+-   **N** - Repeat search in reverse direction
+-   **dd** - Delete the current line
+-   **i** - Enter insert mode
+-   **1G** - Go to the first line in the file. Number can be changed
+-   **G** - Go to the last line of the file
+
+[**Vim cheatsheet**](https://vim.rtorr.com/)

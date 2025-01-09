@@ -1,0 +1,14 @@
+{
+  "hash": "3ae791e6723d250f3718942ed4da7ece",
+  "result": {
+    "markdown": "# Exercise 1\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](figures/exercise.png){fig-align='center' width=20%}\n:::\n:::\n\n\nPerform the following tasks with the skills and knowledge you have gained.\n\nChange the name of the subdirectory **\"four_exercises\"** within your **\"Linux\"** directory to **\"4_exercises\"**\n\n1.  Make a backup of the **\"4_exercises\"** directory\n2.  List the contents of the **\"4_exercises\"** directory\n3.  Within the directory **\"4_exercises\"**\n    1.  Print the working directory.\n    2.  Print out to screen the phrase '**the echo command allows me to print phrases to screen**'.\n    3.  Copy the file **\"copy_this_file.txt\"** to the directory **\"to_me\"**\n    4.  Rename the directory **\"to_me\"** to **\"you\"**\n    5.  Delete the initial **\"copy_this_file.txt\"** file\n\nYou can check my solutions in the [Answers section](#exercise1_answers). These are not the definitive solution but only examples of solutions. If your method works and you understand why then you have done it correctly.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,29 @@
+# Recap
+```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
+knitr::include_graphics(path = "figures/recap.png", auto_pdf = TRUE)
+``` 
+
+Throughout this practical we have covered the topics:
+
+* Linux
+    + Multiuser Multitasking OS
+    + User, Shell and Kernel
+* Running commands on the command line
+    + Search engines, cheat sheets and manual pages
+    + Commands: `man`
+* Useful Linux practice and commands
+    + Tab complete
+    + Up and Down arrow keys to access history
+    + __‘Ctrl’ + ‘c’__  to stop a command
+    + Commands: `clear` 
+* Files and Directories
+    + Navigating through directory structure and looking at files with paths 
+    + Commands: `cd`, `pwd`, `ls`, `mkdir`
+* Manipulating files i.e. creating, copying, moving, deleting
+    + Commands: `cp`, `mv`, `rm`
+* Looking at files
+    + Commands: `cat`, `head`, `tail`, `less`, `wc`, `grep`
+* Text editor
+    + Commands: `vim`
+    
+__Note__: There is a cheatsheet at the end of this book with these commands.

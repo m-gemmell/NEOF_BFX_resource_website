@@ -1,0 +1,19 @@
+# Mamba
+
+```{r, fig.align = 'center',out.width= '25%', echo=FALSE }
+knitr::include_graphics(path = "figures/mamba_logo.png", auto_pdf = TRUE)
+```
+
+## Mamba installation {#mamba_install}
+
+Once you start using bioinformatic tools you will notice that a lot of installing is required. I would highly suggest using Mamba for this purpose.
+
+Mamba is a reimplementation of conda. It is a great tool for installing bioinformatic packages including R packages.
+
+Mamba github: <https://github.com/mamba-org/mamba>
+
+The best way to use Mamba is to install Miniforge. It has both Conda and Mamba commands.
+
+Miniforge installation: <https://github.com/conda-forge/miniforge>
+
+Mamba guide: <https://mamba.readthedocs.io/en/latest/user_guide/mamba.html>

@@ -220,5 +220,80 @@
   },
   "Tartarus/Keystones.qmd": {
     "Keystones.html": "8df79f85"
+  },
+  "about.qmd": {
+    "about.html": "e51e0615"
+  },
+  "conda.qmd": {
+    "conda.html": "859b9a74"
+  },
+  "linux.qmd": {
+    "linux.html": "0f053cdb"
+  },
+  "Linux/01-Linux_Introduction.qmd": {
+    "01-Linux_Introduction.html": "ba2ef220"
+  },
+  "Linux/index.qmd": {
+    "index.html": "6ee25c39"
+  },
+  "Linux/02-Starting.qmd": {
+    "02-Starting.html": "6e5ef51c"
+  },
+  "Linux/03-Directories_and_Files.qmd": {
+    "03-Directories_and_Files.html": "e1b50f4e"
+  },
+  "Linux/04-Tips_and_tricks.qmd": {
+    "04-Tips_and_tricks.html": "d9a23243"
+  },
+  "Linux/05-Manipulating_directories.qmd": {
+    "05-Manipulating_directories.html": "6299c97e"
+  },
+  "Linux/06-Exercise1.qmd": {
+    "06-Exercise1.html": "5497c57d"
+  },
+  "Linux/07-File_reading_and_processing.qmd": {
+    "07-File_reading_and_processing.html": "f61caab5"
+  },
+  "Linux/08-Recap.qmd": {
+    "08-Recap.html": "f6fcc846"
+  },
+  "Linux/09-Fastq.qmd": {
+    "09-Fastq.html": "c8fc2255"
+  },
+  "Linux/10-Exercise2.qmd": {
+    "10-Exercise2.html": "ce1e0506"
+  },
+  "Linux/11-Advanced_linux_practice.qmd": {
+    "11-Advanced_linux_practice.html": "f3ff0ce0"
+  },
+  "Linux/12-Advanced_practice_exercise.qmd": {
+    "12-Advanced_practice_exercise.html": "3130ee28"
+  },
+  "Linux/13-Bioinformatica_languages.qmd": {
+    "13-Bioinformatica_languages.html": "06e73deb"
+  },
+  "Linux/14-Answers_1.qmd": {
+    "14-Answers_1.html": "caec67d1"
+  },
+  "Linux/15-Answers_2.qmd": {
+    "15-Answers_2.html": "fc8294b3"
+  },
+  "Linux/16-Answers_advanced.qmd": {
+    "16-Answers_advanced.html": "bcad4047"
+  },
+  "Linux/a1-cheat_sheet.qmd": {
+    "a1-cheat_sheet.html": "56311f6d"
+  },
+  "Linux/a2-on_your_pc.qmd": {
+    "a2-on_your_pc.html": "f7e1f0b2"
+  },
+  "Linux/a3-mamba.qmd": {
+    "a3-mamba.html": "fbaeb9bd"
+  },
+  "Linux/a4-vim.qmd": {
+    "a4-vim.html": "0a0af8f5"
+  },
+  "webexercises.qmd": {
+    "webexercises.html": "4806651c"
   }
 }

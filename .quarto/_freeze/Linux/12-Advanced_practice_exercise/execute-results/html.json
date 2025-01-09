@@ -1,0 +1,14 @@
+{
+  "hash": "de01b6cdcdab1bd179ad6227a90e161b",
+  "result": {
+    "markdown": "# Advance practice exercise\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](figures/adv_exercise.png){fig-align='center' width=20%}\n:::\n:::\n\n\n1. Copy the directory __~/Linux/advanced_practice__ to __~/Linux/advanced_practice_exercise__\n2. Move into __~/Linux/advanced_practice_exercise__\n3. Make a directory called __fastq__ and one called __txt__\n4. With one command move all the fastq files into the directory __fastq__\n5. With one command move all the txt files, excluding __metadata.txt__ and __samples.txt__, into the directory __txt__\n6. Create a file in the __fastq__ directory called __patient_1_corrected.fastq__ and put all the corrected fastq data for patient_1 into the file. You can look at the metadat.txt file to see which samples belong to patient_1.\n7. Append the metadata line for sample_1_AAAA to the bottom of the file __sample_1_AAAA.txt__ in the __txt__  directory.\n8. For all the corrected fastq files find the sequences that start with a stop codon in the forward orientation (i.e. TAG, TAA or TGA). Print out to screen the sample name and sequence info separated by a “:” only (e.g. sample_10_AAGT:TAAGAGAACAATGAACAGATATTAATAATTTTGCCGCTTTTCTGCGGGAT)\n9. Count the number of Gs and Cs within file __sample_16_AACC.fastq__\n10. Get the fastq headers of sequences with homopolymers made of As with a length of 5 or greater for the uncorrected fastq files for samples 3,4,5,13,14 and 15 with one command.\n\nYou can check my solutions in the [Answers section](#exerciseadv_answers). These are not the definitive solution but only examples of solutions. If your method works and you understand why then you have done it correctly.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
