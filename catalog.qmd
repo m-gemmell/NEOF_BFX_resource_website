@@ -1,8 +1,0 @@
----
-title: "Catalog"
-editor: 
-  markdown: 
-    wrap: sentence
----
-
-This part of the website contains different sections on Units, gear, traits, etc.

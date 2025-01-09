@@ -4,14 +4,14 @@ editor: source
 
 #Website
 website:
-  favicon: /images/Gaia_favicon.png
+  favicon: /images/NEOF_favicon.png
   page-navigation: true
-  title: "PRIMEVAL DEITIES"
-  description: "Primeval deity and other factions designed for the FIST RPG"
+  title: "NEOF BFX resources"
+  description: "Useful bioinformatic resources as advised by NEOF"
 ##Navbar
   navbar:
-    title: Primeval Deities
-    logo: "images/Gaia.png"
+    title: NEOF BFX resources
+    logo: "images/NEOF_rounded_corners"
     collapse-below: lg
 ###Navbar left
     left:
@@ -19,18 +19,7 @@ website:
         href: index.qmd
       - text: "History"
         href: history.qmd
-      - text: "Nyxmera"
-        href: nyxmera.qmd
-      - text: "Tartarus"
-        href: tartarus.qmd
-      - text: "Proteus"
-        href: proteus.qmd
-      - text: "Gaia"
-        href: gaia.qmd
-      - text: "Missions"
-        href: missions.qmd
-      - text: "Catalog"
-        href: catalog.qmd
+      
 ###Navbar right
     right:
     # List of icons: https://icons.getbootstrap.com/
@@ -87,91 +76,6 @@ website:
         - section: "The Moon"
           contents:
           - href: History/The_moon.qmd
-    - id: Nyxmera
-      title: "Nyxmera"
-      style: "floating"
-      align: left
-      contents:
-        - href: nyxmera.qmd
-        - href: Nyxmera/Suns.qmd
-        - href: Nyxmera/Troops.qmd
-        - href: Nyxmera/Doppelganger_Dunes.qmd
-        - href: Nyxmera/Camera_Obscura.qmd
-        - href: Nyxmera/Starvatars.qmd
-        - href: Nyxmera/Sol_the_ablated.qmd
-    - id: Tartarus
-      title: "Tartarus"
-      style: "floating"
-      align: left
-      contents:
-        - href: tartarus.qmd
-        - href: Tartarus/Dotters.qmd
-        - href: Tartarus/DOT_raiders.qmd
-        - href: Tartarus/Kraken.qmd
-        - href: Tartarus/Taloes.qmd
-        - href: Tartarus/Kaiju.qmd
-        - href: Tartarus/Keystones.qmd
-        - href: Tartarus/Kohitar_the_xenolith.qmd
-    - id: Proteus
-      title: "Proteus"
-      style: "floating"
-      align: left
-      contents:
-        - href: proteus.qmd
-        - href: Proteus/Proteans.qmd
-        - href: Proteus/Triton_n_Delta.qmd
-        - href: Proteus/Refraction_Sports.qmd
-        - href: Proteus/Pumice_construction_ltd.qmd
-        - href: Proteus/Water_bodies.qmd
-        - href: Proteus/Blanchard_the_hyperborean.qmd
-    - id: Gaia
-      title: "Gaia"
-      style: "floating"
-      align: left
-      contents:
-        - href: gaia.qmd
-        - href: Gaia/TAG.qmd
-        - href: Gaia/Skyuss.qmd
-        - href: Gaia/CGC.qmd
-        - href: Gaia/Dr_Petra_Pufferfish.qmd
-    - id: Missions
-      title: "Missions"
-      style: "floating"
-      align: left
-      contents:
-        - section: "Intro"
-          contents:
-            - href: missions.qmd
-        - section: "D.R.Ops"
-          contents:
-            - href: Missions/M-PLAY.qmd
-        - section: "Dilemmas"
-          contents:
-            - href: Missions/M-AVOW.qmd
-            - href: Missions/M-DEBT.qmd
-            #- href: Missions/M-FAIR.qmd
-            - href: Missions/M-POPS.qmd
-        - section: "Paranormal event"
-          contents:
-            - href: Missions/M-AWE.qmd
-            - href: Missions/M-DELVE.qmd
-            - href: Missions/M-HARM.qmd
-        - section: "Bombastic"
-          contents:
-            - href: Missions/M-TIDY.qmd
-        - section: "Primeval Polytheist"
-          contents:
-            - href: Missions/M-Blanchards_winter.qmd
-    - id: Catalog
-      title: "Catalog"
-      style: "floating"
-      align: left
-      contents:
-        - href: catalog.qmd
-        - href: Catalog/traits.qmd
-        - href: Catalog/weapon_tags.qmd
-        - href: Catalog/units.qmd
-
 
 
 #Format
