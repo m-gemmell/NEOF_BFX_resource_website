@@ -1,4 +1,10 @@
-# Bioinformatic Languages {#bfxlanguages}
+---
+title: "Bioinformatic languages"
+engine: knitr
+editor: 
+  markdown: 
+    wrap: sentence
+---
 ```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
 knitr::include_graphics(path = "figures/languages.png", auto_pdf = TRUE)
 ``` 

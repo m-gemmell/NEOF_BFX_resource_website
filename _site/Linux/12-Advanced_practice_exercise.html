@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>NEOF BFX resources – advanced_practice_exercise</title>
+<title>NEOF BFX resources - Advanced practice exercise</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -90,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Overview</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../Linux/01-Linux_Introduction.html" rel="" target="" aria-current="page">
+    <a class="nav-link active" href="../Linux/index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Linux</span></a>
   </li>  
   <li class="nav-item">
@@ -121,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Linux/11-Advanced_linux_practice.html">Advanced topics</a></li><li class="breadcrumb-item"><a href="../Linux/12-Advanced_practice_exercise.html">Advance practice exercise</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Linux/11-Advanced_linux_practice.html">Advanced topics</a></li><li class="breadcrumb-item"><a href="../Linux/12-Advanced_practice_exercise.html">Advanced practice exercise</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -239,13 +273,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Linux/12-Advanced_practice_exercise.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Advance practice exercise</span></a>
+ <span class="menu-text">Advanced practice exercise</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Linux/13-Bioinformatica_languages.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bioinformatic Languages</span></a>
+ <span class="menu-text">Bioinformatic languages</span></a>
   </div>
 </li>
       </ul>
@@ -253,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
- <span class="menu-text">Answers</span></a>
+ <span class="menu-text">Appendices</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -261,55 +295,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Linux/14-Answers_1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Exercise 1</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Linux/15-Answers_2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Exercise 2</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Linux/16-Answers_advanced.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Advanced exercise</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
- <span class="menu-text">Appendices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../Linux/a1-cheat_sheet.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Practical cheat sheet</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Linux/a2-on_your_pc.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">On your computer</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Linux/a3-mamba.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Mamba</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Linux/a4-vim.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">vim</span></a>
   </div>
 </li>
       </ul>
@@ -324,17 +311,30 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#advance-practice-exercise" id="toc-advance-practice-exercise" class="nav-link active" data-scroll-target="#advance-practice-exercise">Advance practice exercise</a></li>
+  <li><a href="#answers" id="toc-answers" class="nav-link active" data-scroll-target="#answers">Answers</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Advanced practice exercise</h1>
+</div>
 
 
-<section id="advance-practice-exercise" class="level1">
-<h1>Advance practice exercise</h1>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -356,7 +356,113 @@ ul.task-list li input[type="checkbox"] {
 <li>Count the number of Gs and Cs within file <strong>sample_16_AACC.fastq</strong></li>
 <li>Get the fastq headers of sequences with homopolymers made of As with a length of 5 or greater for the uncorrected fastq files for samples 3,4,5,13,14 and 15 with one command.</li>
 </ol>
-<p>You can check my solutions in the <a href="#exerciseadv_answers">Answers section</a>. These are not the definitive solution but only examples of solutions. If your method works and you understand why then you have done it correctly.</p>
+<section id="answers" class="level2">
+<h2 class="anchored" data-anchor-id="answers">Answers</h2>
+<p>Click on the below expandable boxes to view my solutions for the exercise. These are not the definitive solution but only examples of solutions. If your method works and you understand why then you have done it correctly.</p>
+<div class="webex-solution">
+<button>
+Directory setup
+</button>
+<p>Ensure you are in the correct directory before carrying out the below commands</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/Linux/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="webex-solution">
+<button>
+Answer 1
+</button>
+<p>Copy the directory ~/Linux/advanced_practice to ~/Linux/advanced_practice_exercise</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> <span class="at">-r</span> ~/Linux/advanced_practice ~/Linux/advanced_practice_exercise</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="webex-solution">
+<button>
+Answer 2
+</button>
+<p>Move into ~/Linux/advanced_practice_exercise</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/Linux/advanced_practice_exercise</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="webex-solution">
+<button>
+Answer 3
+</button>
+<p>Make a directory called fastq and one called txt</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> fastq txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="webex-solution">
+<button>
+Answer 4
+</button>
+<p>With one command move all the fastq files into the directory fastq</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mv</span> <span class="pp">*</span>.fastq fastq/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="webex-solution">
+<button>
+Answer 5
+</button>
+<p>With one command move all the txt files, excluding metadata.txt and samples.txt, into the directory txt.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mv</span> sample_<span class="pp">*</span>txt txt/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="webex-solution">
+<button>
+Answer 6
+</button>
+<p>Create a file in the fastq directory called patient_1_corrected.fastq and put all the corrected fastq data for patient_1 into the file.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> fastq/sample_<span class="pp">[</span><span class="ss">1</span><span class="pp">-</span><span class="ss">2</span><span class="pp">]</span>_<span class="pp">*</span>corrected.fastq <span class="op">&gt;</span> <span class="dt">\</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>fastq/patient_1_corrected.fastq</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="webex-solution">
+<button>
+Answer 7
+</button>
+<p>Append the metadata line for sample_1_AAAA from metadata.txt to the bottom of the file sample_1_AAA.txt in the txt directory.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> metadata.txt <span class="kw">|</span> <span class="fu">grep</span> <span class="st">"sample_1_AAAA"</span> <span class="op">&gt;&gt;</span> txt/sample_1_AAAA.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="webex-solution">
+<button>
+Answer 7
+</button>
+<p>For all the corrected fastq files find the sequences that start with a stop codon in the forward orientation (i.e.&nbsp;TAG, TAA or TGA). Print out to screen the sample name and sequence info separated by a “:” only (i.e.&nbsp;sample_10_AAGT:TAAGAGAACAATGAACAGATATTAATAATTTTGCCGCTTTTCTGCGGGAT)</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">grep</span> <span class="st">"^TA[AG]\|^TGA"</span> fastq/<span class="pp">*</span>corrected.fastq <span class="kw">|</span> <span class="dt">\</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sed</span> <span class="st">"s/.*sample/sample/"</span> <span class="kw">|</span> <span class="fu">sed</span> <span class="st">"s/_corrected.fastq//"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="webex-solution">
+<button>
+Answer 9
+</button>
+<p>Count the number of Gs and Cs within the sequences of file sample_16_AACC.fastq</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> fastq/sample_16_AACC.fastq <span class="kw">|</span> <span class="fu">grep</span> <span class="at">-B</span> 1 <span class="st">"^+$"</span> <span class="kw">|</span> <span class="dt">\</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">grep</span> <span class="at">-v</span> <span class="st">"+\|--"</span> <span class="kw">|</span> <span class="fu">sed</span> <span class="st">"s/A\|T//g"</span> <span class="kw">|</span> <span class="fu">wc</span> <span class="at">-c</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="webex-solution">
+<button>
+Answer 10
+</button>
+<p>Get the fastq headers of sequences with homopolymers made of As with a length of 5 or greater for the uncorrected fastq files for samples 8-13 with one command. Then in the same command make the final output of each line in the format of “Sample_13: Sequence 12”</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> fastq/<span class="pp">*[</span><span class="ss">3</span><span class="pp">-</span><span class="ss">5</span><span class="pp">]*[</span><span class="ss">AGCT</span><span class="pp">]</span>.fastq <span class="kw">|</span> <span class="fu">grep</span> <span class="at">-B</span> 2 <span class="st">"^+$"</span> <span class="kw">|</span> <span class="dt">\</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">grep</span> <span class="at">-B</span> 1 <span class="st">"AAAAA"</span> <span class="kw">|</span> <span class="fu">grep</span> <span class="st">"^@"</span> <span class="kw">|</span> <span class="fu">sed</span> <span class="st">"s/^@s/S/"</span> <span class="kw">|</span> <span class="dt">\</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="fu">sed</span> <span class="st">"s/_[AGCT]*_/: Sequence /"</span> <span class="kw">|</span> <span class="fu">sed</span> <span class="st">"s/ 1:$//"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
 
 
 </section>
@@ -924,7 +1030,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="../Linux/13-Bioinformatica_languages.html" class="pagination-link">
-        <span class="nav-page-text">Bioinformatic Languages</span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text">Bioinformatic languages</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

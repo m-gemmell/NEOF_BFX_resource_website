@@ -1,0 +1,14 @@
+{
+  "hash": "10569f35dae3acee97174a58131afa92",
+  "result": {
+    "markdown": "# Mamba\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](figures/mamba_logo.png){fig-align='center' width=25%}\n:::\n:::\n\n\n## Mamba installation {#mamba_install}\n\nOnce you start using bioinformatic tools you will notice that a lot of installing is required. I would highly suggest using Mamba for this purpose.\n\nMamba is a reimplementation of conda. It is a great tool for installing bioinformatic packages including R packages.\n\nMamba github: <https://github.com/mamba-org/mamba>\n\nThe best way to use Mamba is to install Miniforge. It has both Conda and Mamba commands.\n\nMiniforge installation: <https://github.com/conda-forge/miniforge>\n\nMamba guide: <https://mamba.readthedocs.io/en/latest/user_guide/mamba.html>",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

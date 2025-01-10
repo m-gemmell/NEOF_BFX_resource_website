@@ -1,4 +1,10 @@
-# Recap
+---
+title: "Recap"
+engine: knitr
+editor: 
+  markdown: 
+    wrap: sentence
+---
 ```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
 knitr::include_graphics(path = "figures/recap.png", auto_pdf = TRUE)
 ``` 

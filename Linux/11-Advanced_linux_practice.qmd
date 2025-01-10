@@ -1,4 +1,10 @@
-# Advanced Linux practice {#advancedlinux}
+---
+title: "Advanced Linux practice"
+engine: knitr
+editor: 
+  markdown: 
+    wrap: sentence
+---
 
 ```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
 knitr::include_graphics(path = "figures/linux_intermdiary.png", auto_pdf = TRUE)

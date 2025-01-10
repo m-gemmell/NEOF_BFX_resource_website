@@ -1,4 +1,10 @@
-# Tips and tricks {#tipsandtricks}
+---
+title: "Tips and tricks"
+engine: knitr
+editor: 
+  markdown: 
+    wrap: sentence
+---
 ```{r, fig.align = 'center',out.width= '30%', echo=FALSE }
 knitr::include_graphics(path = "figures/skateboard_trick.png", auto_pdf = TRUE)
 ``` 

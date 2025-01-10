@@ -1,4 +1,10 @@
-# Linux {#linuxintro}
+---
+title: "Linux"
+engine: knitr
+editor: 
+  markdown: 
+    wrap: sentence
+---
 
 <center>
 ![](figures/linux_beginner.png){style="width:200px"}
@@ -26,4 +32,4 @@ It is important to learn the Linux language so you can run commands on the comma
 
 ## Linux or Unix?
 
-Linux and Unix are almost identical and are commonly used interchangeably. The main difference is that Linux if free and open source whilst Unix is not free and is closed source.
+Linux and Unix are almost identical and are commonly used interchangeably. The main difference is that Linux is free and open source whilst Unix is not free and is closed source.
