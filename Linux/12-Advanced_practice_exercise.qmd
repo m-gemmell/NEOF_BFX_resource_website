@@ -5,9 +5,9 @@ editor:
   markdown: 
     wrap: sentence
 ---
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/adv_exercise.png", auto_pdf = TRUE)
-``` 
+<center>
+![](figures/adv_exercise.png){style="width:200px"}
+</center>
 
 1. Copy the directory __~/Linux/advanced_practice__ to __~/Linux/advanced_practice_exercise__
 2. Move into __~/Linux/advanced_practice_exercise__

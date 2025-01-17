@@ -60,7 +60,7 @@ website:
       contents:
       - href: Linux/11-Advanced_linux_practice.qmd
       - href: Linux/12-Advanced_practice_exercise.qmd
-      - href: Linux/13-Bioinformatica_languages.qmd
+      - href: Linux/13-Bioinformatic_languages.qmd
     - section: Appendices
       contents:
       - href: Linux/a1-cheat_sheet.qmd

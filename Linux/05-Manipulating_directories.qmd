@@ -5,9 +5,9 @@ editor:
   markdown: 
     wrap: sentence
 ---
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/transform.png", auto_pdf = TRUE)
-``` 
+<center>
+![](figures/transform.png){style="width:200px; background: white; border-radius:15px"}
+</center>
 
 [YouTube walk through video](https://www.youtube.com/embed/5PguHkogxjI)
 
@@ -34,9 +34,9 @@ ls Chicken
 __Tip__: You can use the up arrow key to get to previously run commands which you can edit using the right and left keys.
 
 ## Moving Directories and Files
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/chicken.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/chicken.png){style="width:200px"}
+</center>
 
 Files and directories can be moved with the `mv` command. This can also be used to change the name of a file or a directory.
 
@@ -83,9 +83,9 @@ ls 3_chicken_farm/3_2_field/
 ``` 
 
 ## Copying Directories and Files
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/copy.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/copy.png){style="width:200px"}
+</center>
 
 Files and directories can be copied with the `cp` command. Directories and files can be copied to any directory and given a new name.
 Note: If you copy a file to the path of a file that already exists, the pre existing file will be overwritten.
@@ -132,9 +132,10 @@ ls
 ``` 
 
 ## Deleting Files and Directories
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/erase.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/erase.png){style="width:200px; background: white; border-radius:15px"}
+</center>
+
 To delete files and directories the command `rm` can be used. 
 
 __Important__: This command can be very dangerous. There is no recycle bin on Linux machines so once you delete something it cannot be recovered. Be very careful when deleting files and directories. To avoid major loss try to keep backups of important data and scripts.
@@ -162,9 +163,9 @@ ls
 ``` 
 
 ## MCQs: Manipulating directories
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/question_bubble_green.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/question_bubble_green.png){style="width:200px"}
+</center>
 
 Please attempt to answer the below Multiple-Choice Questions to reinforce what you have learnt in this chapter.
 

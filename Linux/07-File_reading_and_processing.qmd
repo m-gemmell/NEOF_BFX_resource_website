@@ -6,9 +6,9 @@ editor:
     wrap: sentence
 ---
 
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/files.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/files.png){style="width:200px"}
+</center>
 
 There are many ways to show the contents of a file. Below are a few examples.
 
@@ -17,10 +17,9 @@ The files for the examples are within the directory: **"/pub14/tea/nsc2xx/Linux/
 [YouTube walk through video](https://www.youtube.com/embed/rldLi1yAE58)
 
 ## Print out a file
-
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/cat.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/cat.png){style="width:200px; background:white; border-radius:15px"}
+</center>
 
 The `cat` command will print out the entire contents of a file to the screen. This is useful for small text files and pipelines (pipelines are not covered here). Example commands are below (remember to replace xxx with your user name number):
 
@@ -29,28 +28,27 @@ The `cat` command will print out the entire contents of a file to the screen. Th
 Print contents of **"short_file.txt"** to screen
 
 ```{bash eval=FALSE}
-cat /pub14/tea/nsc2xx/Linux/5_reading_files/short_file.txt
+cat ~/Linux/5_reading_files/short_file.txt
 ```
 
 Print contents of **"Scientist.txt"** to screen
 
 ```{bash eval=FALSE}
-cat /pub14/tea/nsc2xx/Linux/5_reading_files/Scientist.txt
+cat ~/Linux/5_reading_files/Scientist.txt
 ```
 
 Print contents of **"ecoli.gbk"** to screen
 
 ```{bash eval=FALSE}
-cat /pub14/tea/nsc2xx/Linux/5_reading_files/ecoli.gbk
+cat ~/Linux/5_reading_files/ecoli.gbk
 ```
 
 **Remember**: The `clear` command.
 
 ## head and tail
-
-```{r, fig.align = 'center',out.width= '30%', echo=FALSE }
-knitr::include_graphics(path = "figures/head_and_tails.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/head_and_tails.png){style="width:200px; background:white; border-radius:15px"}
+</center>
 
 The `head` command will print out to screen the top n lines of a file.
 
@@ -121,10 +119,9 @@ tail -n -2 ecoli.gbk
 ```
 
 ## File viewing with less
-
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/less.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/less.png){style="width:200px; background:white; border-radius:15px"}
+</center>
 
 The `less` command will display a file's contents one page at a time. Various keys on the keyboard will allow you to navigate the contents of the files. The below actions will occur identically with the man command.
 
@@ -151,10 +148,9 @@ man less
 ```
 
 ## Word count
-
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/wc.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/wc.png){style="width:200px; background:white; border-radius:15px"}
+</center>
 
 The `wc` command will allow allow you to word count files. It will display line, word and byte counts for files in that order.
 
@@ -177,10 +173,9 @@ wc -l ecoli.gbk
 ```
 
 ## Pattern searching
-
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/pattern.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/pattern.png){style="width:200px; background: white; border-radius:15px"}
+</center>
 
 The `grep` command will search for a pattern in a text file and output all the lines containing the pattern.
 
@@ -211,10 +206,9 @@ grep Scientist.txt
 The above command will be stuck as `grep` does not know what it is looking for. To cancel the command use **'Ctrl' + 'c'**
 
 ## Text editor
-
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/text_editor.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/text_editor.png){style="width:200px; background:white; border-radius:15px"}
+</center>
 
 Three of the most popular text editors are **vim**, **gedit** and **nano**. Below are quick introductions to **nano** and **vim**.
 
@@ -223,10 +217,9 @@ Three of the most popular text editors are **vim**, **gedit** and **nano**. Belo
 The below will teach you **nano**.
 
 ### nano
-
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/1200px-Gnu-nano.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/1200px-Gnu-nano.png){style="width:200px; background:white; border-radius:15px"}
+</center>
 
 To enter the `nano` text editor you can use the command `nano`. The command is: `nano file.txt`.
 
@@ -256,17 +249,16 @@ Below are some important examples:
 
 ### Tasks
 
-Carry out the following tasks in the directory: **"/pub14/tea/nscxx/Linux/5_reading_files/"**
+Carry out the following tasks in the directory: **"~/Linux/5_reading_files/"**
 
 Using `nano`, add an entry for Scientist Mae Jemison (Born: 1956) to the file **"Scientist.txt"**. The names and date are separated by one tab.
 
 Using your text editor of choice delete all the scientists born before 1000 in the **"Scientist.txt"** file and save this as **"Scientist_post_1000.txt"**.
 
 ## MCQs: File reading and processing
-
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/question_bubble_purple.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/question_bubble_purple.png){style="width:200px"}
+</center>
 
 Please attempt to answer the below Multiple-Choice Questions to reinforce what you have learnt in this chapter.
 

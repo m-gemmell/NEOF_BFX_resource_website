@@ -5,10 +5,9 @@ editor:
   markdown: 
     wrap: sentence
 ---
-
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/linux_intermdiary.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/linux_intermdiary.png){style="width:200px"}
+</center>
 
 We have covered a small amount of Linux coding. This should be sufficient to carry out our future workshops but if you were to continue in bioinformatics we would recommend learning more advanced methods.
 
@@ -17,10 +16,9 @@ Below are some short sections to introduce you to some more advanced linux codin
 The following sections will all be run with the files in the directory **"\~/Linux/advanced_practice/"**. Therefore ensure you are in this directory before running the below examples. This contains fastq and txt files for 20 samples. Each sample contains a fastq file and txt file for uncorrected and corrected reads. These fastq files are single end (i.e. there is no reverse/R2 reads).
 
 ## Wildcard characters
-
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/wildcard.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/wildcard.png){style="width:200px"}
+</center>
 
 These are characters that can be used to represent a variety of other characters. This can be useful for deleting many files, searching for files with specific patterns in their names and more!
 
@@ -113,10 +111,9 @@ ls sample_[0-9][0]_*corrected.txt
 ```
 
 ## Redirection
-
-```{r, fig.align = 'center',out.width= '15%', echo=FALSE }
-knitr::include_graphics(path = "figures/chevron.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/chevron.png){style="width:200px; background:white; border-radius:15px"}
+</center>
 
 Redirection allows you to put the output of a command to a file. The redirect symbol is `>`. Be careful when redirecting as it will overwrite any existing files. To append to the bottom of a file use `>>`.
 
@@ -178,10 +175,9 @@ rm *tmp
 ```
 
 ## Pipes
-
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/pipes.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/pipes.png){style="width:200px; background:white; border-radius:15px; border:white solid 5px"}
+</center>
 
 Pipes allow you to put the output of one command to the input of another. For example you could use `grep` to get all the lines with a certain string and pipe the output to `wc` to count the number of lines that have the specific string.
 
@@ -216,10 +212,9 @@ cat *fastq | grep “TAG” | wc -l
 ```
 
 ## Regular expressions
-
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/trex.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/trex.png){style="width:200px"}
+</center>
 
 Regular expressions are similar to wildcard characters but more complex and used for commands like `grep` and `sed`.
 
@@ -331,10 +326,9 @@ Regex Crossword, A online game like soduku that is useful to practice regular ex
 https://regexcrossword.com/
 
 ## sed
-
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/sed.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/sed.png){style="width:200px"}
+</center>
 
 This is a complicated yet powerful command that can be used to edit text files quickly and efficiently. The main use is to substitute text with other text. `sed` can be used with regular expressions.
 
@@ -400,10 +394,9 @@ Below is a useful link to learn about file permissions:\
 https://www.guru99.com/file-permissions.html
 
 ## MCQs: Advanced linux
-
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/question_bubble_red.png", auto_pdf = TRUE)
-```
+<center>
+![](figures/question_bubble_red.png){style="width:200px"}
+</center>
 
 Please attempt to answer the below Multiple-Choice Questions to reinforce what you have learnt in this chapter.
 

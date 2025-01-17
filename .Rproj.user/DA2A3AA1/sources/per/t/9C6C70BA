@@ -1,27 +1,27 @@
 {
-    "id": "CAA2F777",
-    "path": "F:/Git/NEOF_BFX_resources_website/Linux/10-Exercise2.qmd",
-    "project_path": "Linux/10-Exercise2.qmd",
+    "id": "9C6C70BA",
+    "path": "F:/Git/NEOF_BFX_resources_website/Linux/a1-cheat_sheet.qmd",
+    "project_path": "Linux/a1-cheat_sheet.qmd",
     "type": "quarto_markdown",
-    "hash": "2269245387",
+    "hash": "1582612628",
     "contents": "",
     "dirty": false,
-    "created": 1736507172242.0,
+    "created": 1737120104296.0,
     "source_on_save": false,
-    "relative_order": 4,
+    "relative_order": 2,
     "properties": {
         "rmdVisualMode": "false",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "29,0",
-        "scrollLine": "10"
+        "cursorPosition": "1,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1736507566,
+    "lastKnownWriteTime": 1737120138,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1736507566393,
+    "last_content_update": 1737120138339,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -5,9 +5,10 @@ editor:
   markdown: 
     wrap: sentence
 ---
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/files.png", auto_pdf = TRUE)
-``` 
+<center>
+![](figures/files.png){style="width:200px"}
+</center>
+
 The next exercise will focus on a set of files including fastq files.
 
 - Fastq files are very commonly used in bioinformatics.
@@ -33,4 +34,4 @@ The lines represent:
 4. Quality values for each base in the 2nd line. NOTE: ‘@’ can be used as quality values.
 
 For more information on the fastq format the below resource is good:
-https://en.wikipedia.org/wiki/FASTQ_format
+[Wikipedia fastq page](https://en.wikipedia.org/wiki/FASTQ_format)

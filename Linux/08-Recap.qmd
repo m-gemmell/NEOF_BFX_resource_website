@@ -5,9 +5,9 @@ editor:
   markdown: 
     wrap: sentence
 ---
-```{r, fig.align = 'center',out.width= '20%', echo=FALSE }
-knitr::include_graphics(path = "figures/recap.png", auto_pdf = TRUE)
-``` 
+<center>
+![](figures/recap.png){style="width:200px; background:white; border-radius:15px"}
+</center>
 
 Throughout this practical we have covered the topics:
 
