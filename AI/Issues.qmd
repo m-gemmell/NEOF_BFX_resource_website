@@ -1,0 +1,50 @@
+---
+title: "The issues"
+---
+
+LLMs and other generative AI damage have 3 major issues:
+
+1. They are energy intensive tool 
+2. They have ethical issues in terms of the ownership of people's works and IP
+3. They make mistakes
+
+## Environmental issue
+
+ChatGPt, and other LLMs, are energy intensive.
+Yes, many computing processes require energy but LLM based tools are increasing energy usage of servers across the world.
+Whereas one Google search uses 0.3 Wh, one chatGPT query uses 2.9Wh of energy, 10 times as much [link](https://www.rwdigital.ca/blog/how-much-energy-do-google-search-and-chatgpt-use/).
+
+When querying ChaptGPT the tool then carries out inference.
+This is based on the LLM the tool uses.
+However, ChatGPT and other LLMS utilise a lot of energy in other manners:
+
+- Training the LLM. One study found that training one model of ChatGPT used 1,287 MWh [link](https://arxiv.org/abs/2104.10350).
+- LLMs require a vast amount of GPUs to train and utilise. Many GPUs are being created for LLMs.
+
+In fairness the daily use of Google uses more energy (1.05 GWh) than the inference used by ChatGPT (0.621 GWh) (October 2024 [link](https://www.rwdigital.ca/blog/how-much-energy-do-google-search-and-chatgpt-use/)).
+But if used frivolously has the capability to use a lot more.
+
+If you are going to use ChatGPT and other LLMs please be mindful of its use.
+Only use it where other less energy intensive tools cannot be used in its place.
+
+## Ethical issue
+
+Many argue that the most popular forms of generative AI are theft.
+They are trained using data on the internet that are created by individuals.
+This has been a big issue for artists whose works and style can be duplicated as the image generating tools are trained on art available on the internet.
+
+## Mistakes
+
+ChatGPT and other generative AI tools make mistakes.
+If you are using them you must be sceptical of their output.
+The more credible data it was trained on the better its results will be.
+Niche and developing fields are a struggle for it, including bioinformatics.
+
+Bioinformatics is constantly changing with a common metaphor is that it is like the wild west.
+Therefore, the Models can easily become out of date for bioinformatics.
+Additionally, bioinformatics information out there has high variation of quality from text books to forums and it is hard for humans, nevermind AIs, to determine what is relevant and what is not.
+
+Common issues of tools like chatGPT are:
+
+- __Accuracy:__ These tools are eager to give answers and can provide incorrect information. This info can be incorrect info from its model or it can "hallucinate" answers (i.e. make up info).
+- __Bias:__ Generative AI is biased as it is gathering biased information. As more content produced from ChatGPT is uploaded online ChatGPT will be trained on data created by previous versions. This can then solidify these biases.

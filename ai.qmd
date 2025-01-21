@@ -1,0 +1,24 @@
+---
+title: "AI"
+---
+
+There are many forms of AI (Artificial Intelligence) used throughout computing. These are pervasive throughout the world and many are incredibly useful. 
+
+Examples of AI include:
+
+- __Digital assistants:__   Siri, Alexa, Cortana, Google Assistant, etc.
+- Search engines: Google, Yahoo, Bing, DuckDuckGo, etc.
+- Social media algorithms. Most social media sites use AI-powered algorithms to cater the content the site displays to you. Examples include Facebook, Instragram, Youtube, TikTok, etc.
+- __Chatbots__. Many customer facing websites utilise chatbots to provide customer service.
+- __Robots__. Many physical roots use AI to help with their decision making. Examples include the NASA Mars rovers, Assembly line robots, and hospitality robots.
+- __Text editing__. Many text editors have AI that spot typos and grammatical mistakes.
+- __Video games__. Video games have long used AI to create generated worlds, and control non-player characters.
+
+There are much more examples but hopefully the above demonstrates that AI is a very general term. 
+One definition of AI is any computer system that can perform tasks that typically require human intelligence.
+Some like to say that AI systems are only considered AI when they are first released and when they become the norm in computing they are then considered normal computing.
+This leads us onto LLMs.
+
+
+
+

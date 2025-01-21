@@ -1,0 +1,11 @@
+---
+title: "Using Generative AI"
+---
+
+If you want to use generative ensure you are informed on its proper use.
+We are still in the early days of LLMs and how they ultimately be used and the effect they have on the world is still to be determined.
+Check your University's guidelines for the use of Generative AI and the resources they can provide.
+
+Below is a an example link to University guidance:
+
+[University of Liverpool's guidance on [Generative Artificial Intelligence in Teaching, Learning and Assessment](https://www.liverpool.ac.uk/centre-for-innovation-in-education/digital-education/generative-artificial-intelligence/)

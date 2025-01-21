@@ -1,0 +1,25 @@
+---
+title: "Large Language Models"
+---
+
+LLMs (Large Language Models) are a form of Generative AI.
+Generative AI is able to generate to produce data.
+They require a form of prompt to generate from and so can be through of as transformers.
+Examples of generative AI include:
+
+- __Chatbots__. These create text from a text prompt. Examples include: ChatGPT, Copilot, Gemini, and LLaMa.
+- __Text-to-image__. These generate images from a text prompt. Examples include: Stable Diffuson, Midjourney, and DALL-E.
+- __Text-to-video__. These generate videos from a text prompt. Sora is an example.
+
+More recent and advanced LLM based tools have become very popular but how do they function?
+
+In essence LLM based chatbots are very advanced auto-fill tools.
+To properly function a model needs to be created, called a Large Language Model.
+This LLM allows the tool to predict what the next word in a sentence would be and therefore create sentences and paragraphs based on a user's input.
+
+This is why LLM based chatbots struggle with answering mathematical questions.
+They can only give correct mathematical answers to questions they have in their LLM.
+Common questions such as 1 + 1 will be fine as it is in many text books, however unique questions not found in text books will trip it up.
+
+LLMs are permeating the internet, our computers, and society.
+Many find them useful to get answers but is it ethically correct and how damaging is it to the environment?
