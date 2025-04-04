@@ -21,10 +21,13 @@ website:
     - text: About us
       href: about_us.qmd
     right:
+    - icon: house-fill
+      href: https://neof.org.uk/training/
+      aria-label: Neof website
     - icon: linkedin
       href: https://www.linkedin.com/in/training-neof/
       aria-label: LinkedIn
-    - text: "![](/images/Bluesky_Logo.svg){height=20px}"
+    - text: "![](/images/Bluesky_quarto_navbar.svg){height=20px}"
       href: https://bsky.app/profile/nerc-eof.bsky.social
   page-footer:
     left: |

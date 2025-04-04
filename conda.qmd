@@ -2,4 +2,15 @@
 title: "Conda"
 ---
 
+Conda is a very useful tool to install bioinformatic tools without needing super user access.
+
+Mamba is a reimplementation of conda. It is much faster than conda.
+
+Mamba github: [https://github.com/mamba-org/mamba](https://github.com/mamba-org/mamba)
+
+My recommendation to use Mamba is to install Miniforge. It has both Conda and Mamba commands.
+
+Miniforge installation: [https://github.com/conda-forge/miniforge](https://github.com/conda-forge/miniforge)
+
+Mamba guide: [https://mamba.readthedocs.io/en/latest/user_guide/mamba.html](https://mamba.readthedocs.io/en/latest/user_guide/mamba.html)
 
