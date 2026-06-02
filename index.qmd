@@ -8,7 +8,7 @@ editor:
 <center>
 ![](./images/NEOF_rounded_corners.png){style="width:300px"}
 </center>
-
+<br>
 This website acts as a resource for researchers who are new to bioinformatics.
 
 The contents of this site includes:

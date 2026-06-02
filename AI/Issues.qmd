@@ -5,8 +5,9 @@ title: "The issues"
 LLMs and other generative AI damage have 3 major issues:
 
 1. They are energy intensive tool 
-2. They have ethical issues in terms of the ownership of people's works and IP
-3. They make mistakes
+2. Hidden costs
+3. They have ethical issues in terms of the ownership of people's works and IP
+4. They make mistakes
 
 ## Environmental issue
 
@@ -27,6 +28,19 @@ But if used frivolously has the capability to use a lot more.
 If you are going to use ChatGPT and other LLMs please be mindful of its use.
 Only use it where other less energy intensive tools cannot be used in its place.
 
+A big issue that is become more and more prevalent is the creation of data centres for AI.
+These are incredibly expensive and destroy the environment.
+
+## Hidden costs
+
+Gen AI are incredibly expensive.
+Companies have been massively subsidising the costs for users with the hope to increase their user base.
+This cost may decrease but it is likely to increase.
+
+This becomes a problem when someone becomes reliant of GenAI workflows and then the price suddenly increases for them.
+The user then may not be able to afford to continue using GenAI and their workflows become useless meaning they have to spend an incredibly long time to create new workflows.
+This issue is already happening as many companies are dramatically increasing the price for customers so the company does not lose billions of pounds on a tool that is incredibly expensive to run.
+
 ## Ethical issue
 
 Many argue that the most popular forms of generative AI are theft.
@@ -42,7 +56,7 @@ Niche and developing fields are a struggle for it, including bioinformatics.
 
 Bioinformatics is constantly changing with a common metaphor is that it is like the wild west.
 Therefore, the Models can easily become out of date for bioinformatics.
-Additionally, bioinformatics information out there has high variation of quality from text books to forums and it is hard for humans, nevermind AIs, to determine what is relevant and what is not.
+Additionally, bioinformatics information out there has high variation of quality from text books to forums and it is hard for humans, never mind AIs, to determine what is relevant and what is not.
 
 Common issues of tools like chatGPT are:
 

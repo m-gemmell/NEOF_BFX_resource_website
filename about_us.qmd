@@ -17,14 +17,18 @@ To find out more about us please check the following links:
 - Helen Hipperson: [Linkedin](https://www.linkedin.com/in/helen-hipperson-409245200/)
 - Katy Maher: [Linkedin](https://www.linkedin.com/in/kathryn-maher-059480291/)
 - Matthew Gemmell: [Linkedin](https://www.linkedin.com/in/mattie-matthew-gemmell-b562a0b8/)
-- Gavin Gouws: [Linkedin](https://www.linkedin.com/in/gavingouws/)
+
+## Administrator
+
+- Céline Pagnier
 
 <center>
-![NEOF Training team from left to right: Céline Pagnier, Katy Maher, Matthew Gemmell, Helen Hipperson, Gavin Gouws.](./images/july23-lab-48.jpg){style="width:500px; border-radius:5px"}
+![NEOF Training team from left to right: Céline Pagnier, Katy Maher, Matthew Gemmell, Helen Hipperson.](./images/july23-lab-48_cropped.jpg){style="width:500px; border-radius:5px"}
 </center>
 
 ## Alumni trainers
 
+- Gavin Gouws: [Linkedin](https://www.linkedin.com/in/gavingouws/)
 - Ewan Harney (2024): [Linkedin](https://www.linkedin.com/in/ewan-harney/)
 - Graeme Fox (2021-2022): [Linkedin]()
 
